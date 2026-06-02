@@ -1,0 +1,14 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "",
+  "baseFontSize": 30,
+  "baseFontSizeAction": true,
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "highlight",
+    "wide-code",
+    "align",
+    "callout",
+    "headings"
+  ]
+}

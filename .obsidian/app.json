@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "ZImages",
+  "userIgnoreFilters": [
+    "ZImages/"
+  ],
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true
+}

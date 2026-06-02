@@ -1,0 +1,53 @@
+/* Remove all centering and make everything left-aligned */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+    max-width: 100% !important;
+    text-align: left !important;
+    padding: 20px 40px;
+}
+
+/* Fix centered titles in reading mode */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+    text-align: left !important;
+}
+
+/* Remove centered reading mode */
+.markdown-reading-view .markdown-preview-section {
+    max-width: 100% !important;
+}
+
+/* Fix the preview sizer */
+.markdown-preview-sizer {
+    max-width: 100% !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+/* Fix EDIT MODE - the editor itself */
+.cm-line {
+    text-align: left !important;
+}
+
+.cm-content {
+    max-width: 100% !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-scroller {
+    max-width: 100% !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-sizer {
+    max-width: 100% !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+/* Fix the editor container */
+.markdown-source-view {
+    max-width: 100% !important;
+}
