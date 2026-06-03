@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Harvard_Python/File handling/open.md",
+                "file": "Harvard_Python/File handling/open ,with.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "open"
+              "title": "open ,with"
             }
           }
         ]
@@ -205,10 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b955e789942dea3e",
+  "active": "6a424aeb54f6bb5e",
   "lastOpenFiles": [
     "Harvard_Python/Unit test.md",
-    "Harvard_Python/File handling/open.md",
+    "Harvard_Python/File handling/open ,with.md",
     "Harvard_Python/File handling",
     "Harvard_Python/Libraries/APIs, requests, JSON.md",
     "data notess/python class.md",
