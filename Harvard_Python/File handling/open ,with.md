@@ -13,7 +13,7 @@ open(filename, mode)
 
 # Example
 
-```
+```python
 file = open("data.txt", "r")
 ```
 
@@ -48,7 +48,7 @@ Hello Python
 
 Code:
 
-```
+```python
 file = open("data.txt", "r")
 print(file.read())
 file.close()
@@ -64,9 +64,13 @@ Hello Python
 
 # Write a File
 
-```
-file = open("data.txt", "w")
-file.write("Hello World")
+```python
+file = open("note.txt","w")
+
+file.write("the python is much easier than others.\n")
+
+file.write("AI can replace the job ! \n")
+
 file.close()
 ```
 
@@ -76,7 +80,7 @@ Creates or overwrites file content.
 
 # Append to a File
 
-```
+```python
 file = open("data.txt", "a")
 file.write("\nPython")
 file.close()
@@ -99,4 +103,56 @@ Think of it like:
 Open notebook
 Write something
 Close notebook
+```
+
+```python
+data =
+
+ {
+
+  "name" = "DHARSHINI",
+
+  "age" = 23,
+
+  "weight" = 67
+
+  
+
+ }
+
+print(json.dumps(data,indent = 4,sort_key =True))
+
+
+-> json dictionary
+```
+
+```python
+import csv  
+  
+name = input("What's your name? ")  
+home = input("Where's your home? ")  
+  
+with open("students.csv", "a") as file:  
+writer = csv.writer(file)  
+writer.writerow()
+```
+
+### CSV Library
+
+The CSV library only provides:
+
+```python
+
+csv.reader()
+csv.DictReader()
+csv.writer()
+
+```
+
+There is no:
+
+```python
+
+csv.append()
+
 ```
