@@ -483,7 +483,7 @@ This plan will make you industry-ready in **3–4 months**, even as a **complete
 > [!warning] Title
 > Contents
 
-[[dsdfs]]
+[[Obsidian notes]]
 
 ---
 
