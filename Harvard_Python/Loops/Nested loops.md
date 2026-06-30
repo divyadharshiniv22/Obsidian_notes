@@ -126,16 +126,22 @@ i = 0    j = 0    j = 1i = 1    j = 0    j = 1i = 2    j = 0    j = 1
 
 ## Students and Subjects
 
-```
-students = ["Divya", "Subha"]subjects = ["Python", "SQL"]for student in students:    for subject in subjects:        print(student, subject)
+```python
+students = ["Divya", "Subha"]
+subjects = ["Python", "SQL"]
+for student in students:    
+for subject in subjects:        print(student, subject)
 ```
 
 ---
 
 # Output
 
-```
-Divya PythonDivya SQLSubha PythonSubha SQL
+```python 
+Divya Python
+Divya SQL
+Subha Python
+Subha SQL
 ```
 
 ---

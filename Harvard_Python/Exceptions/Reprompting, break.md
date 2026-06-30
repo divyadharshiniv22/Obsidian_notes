@@ -141,11 +141,11 @@ So loop continued normally.
 
 # Difference Between `pass`, `break`, and `continue`
 
-|Keyword|Meaning|
-|---|---|
-|`pass`|Do nothing|
-|`break`|Stop loop completely|
-|`continue`|Skip current iteration|
+| Keyword    | Meaning                |
+| ---------- | ---------------------- |
+| `pass`     | Do nothing             |
+| `break`    | Stop loop completely   |
+| `continue` | Skip current iteration |
 
 ---
 

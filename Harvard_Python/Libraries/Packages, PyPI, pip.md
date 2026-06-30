@@ -85,13 +85,13 @@ Developers upload packages there.
 
 # Examples of Packages on PyPI
 
-|Package|Purpose|
-|---|---|
-|`numpy`|Numerical computing|
-|`pandas`|Data analysis|
-|`flask`|Web development|
-|`tensorflow`|Machine learning|
-|`requests`|API calls|
+| Package      | Purpose             |
+| ------------ | ------------------- |
+| `numpy`      | Numerical computing |
+| `pandas`     | Data analysis       |
+| `flask`      | Web development     |
+| `tensorflow` | Machine learning    |
+| `requests`   | API calls           |
 
 ---
 
@@ -170,7 +170,8 @@ pip uninstall pandas
 # Relationship Between Package, PyPI, and pip
 
 ```
-PyPI → stores packagespip  → installs packagespackage → reusable code
+PyPI → stores package
+pip  → installs packagespackage → reusable code
 ```
 
 ---
@@ -179,13 +180,13 @@ PyPI → stores packagespip  → installs packagespackage → reusable code
 
 Used everywhere in professional development:
 
-|Field|Common Packages|
-|---|---|
-|Backend|Flask, Django|
-|AI/ML|TensorFlow, PyTorch|
-|Data Science|pandas, numpy|
-|APIs|requests|
-|Automation|selenium|
+| Field        | Common Packages     |
+| ------------ | ------------------- |
+| Backend      | Flask, Django       |
+| AI/ML        | TensorFlow, PyTorch |
+| Data Science | pandas, numpy       |
+| APIs         | requests            |
+| Automation   | selenium            |
 
 ---
 
