@@ -64,14 +64,14 @@ The API sends request and receives weather data.
 
 # APIs Are Used For
 
-|Use Case|Example|
-|---|---|
-|Weather apps|Weather API|
-|Payment systems|Razorpay API|
-|Maps|Google Maps API|
-|AI tools|OpenAI API|
-|Social media login|Google/Facebook API|
-|Backend communication|microservices|
+| Use Case              | Example             |
+| --------------------- | ------------------- |
+| Weather apps          | Weather API         |
+| Payment systems       | Razorpay API        |
+| Maps                  | Google Maps API     |
+| AI tools              | OpenAI API          |
+| Social media login    | Google/Facebook API |
+| Backend communication | microservices       |
 
 ---
 
@@ -103,12 +103,12 @@ User name, email, age
 
 # Common HTTP Methods
 
-|Method|Purpose|
-|---|---|
-|GET|Fetch data|
-|POST|Send data|
-|PUT|Update data|
-|DELETE|Delete data|
+| Method | Purpose     |
+| ------ | ----------- |
+| GET    | Fetch data  |
+| POST   | Send data   |
+| PUT    | Update data |
+| DELETE | Delete data |
 
 ---
 
@@ -162,8 +162,11 @@ import requests
 
 # Example — GET Request
 
-```
-import requestsresponse = requests.get("https://api.github.com")print(response.status_code)
+```python
+import requests
+response =
+requests.get("https://api.github.com")
+print(response.status_code)
 ```
 
 ---
@@ -192,12 +195,12 @@ shows whether request succeeded.
 
 # Common Status Codes
 
-|Code|Meaning|
-|---|---|
-|200|Success|
-|404|Not found|
-|500|Server error|
-|401|Unauthorized|
+| Code | Meaning      |
+| ---- | ------------ |
+| 200  | Success      |
+| 404  | Not found    |
+| 500  | Server error |
+| 401  | Unauthorized |
 
 ---
 
@@ -314,8 +317,15 @@ print(data["current_user_url"])
 
 # Real Flow Diagram
 
-```
-Python Program      ↓requests library      ↓API call      ↓Server      ↓JSON response      ↓Python dictionary
+```python
+
+Python Program   
+   
+↓requests library      
+↓API call      
+↓Server      
+↓JSON response      
+↓Python dictionary
 ```
 
 ---
@@ -398,8 +408,13 @@ Payment APIsBank APIsCRM systems
 
 # Complete Real Example
 
-```
-import requestsresponse = requests.get("https://api.github.com")if response.status_code == 200:    data = response.json()    print(data["current_user_url"])else:    print("Request failed")
+```python
+import requests
+response = requests.get("https://api.github.com")
+if response.status_code == 200:    
+data = response.json()    print(data["current_user_url"])
+else:    
+print("Request failed")
 ```
 
 ---

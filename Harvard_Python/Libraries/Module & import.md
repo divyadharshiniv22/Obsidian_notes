@@ -2,12 +2,12 @@
 from random import shuffle
 ```
 
-|Part|Meaning|
-|---|---|
-|`from`|take from|
-|`random`|module|
-|`import`|bring into program|
-|`shuffle`|function|
+| Part      | Meaning            |
+| --------- | ------------------ |
+| `from`    | take from          |
+| `random`  | module             |
+| `import`  | bring into program |
+| `shuffle` | function           |
 
 ---
 
