@@ -33,7 +33,8 @@ class Phone:    def __init__(self, brand, color):        self.brand = brand     
 Create objects:
 
 ```
-phone1 = Phone("Samsung", "Black")phone2 = Phone("Apple", "White")
+phone1 = Phone("Samsung", "Black")
+phone2 = Phone("Apple", "White")
 ```
 
 ---
