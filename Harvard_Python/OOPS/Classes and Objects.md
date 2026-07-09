@@ -26,13 +26,17 @@ Here:
 
 ### Your Code
 
-```
-class Phone:    def __init__(self, brand, color):        self.brand = brand        self.color = color
+```python
+
+class Phone:    
+def __init__(self, brand, color):        
+self.brand = brand        
+self.color = color
 ```
 
 Create objects:
 
-```
+```python
 phone1 = Phone("Samsung", "Black")
 phone2 = Phone("Apple", "White")
 ```
@@ -43,19 +47,19 @@ phone2 = Phone("Apple", "White")
 
 `__init__()` is called automatically when an object is created.
 
-```
+```python
 phone1 = Phone("Samsung", "Black")
 ```
 
 Python internally does:
 
-```
+```python
 Phone.__init__(phone1, "Samsung", "Black")
 ```
 
 So:
 
-```
+```python
 self = phone1
 brand = "Samsung"
 color = "Black"
@@ -63,7 +67,7 @@ color = "Black"
 
 Then:
 
-```
+```python
 self.brand = brandself.color = color
 ```
 
@@ -80,13 +84,14 @@ The classes and object :
 
 Used for integers (whole numbers).
 
-```
-x = 10print(type(x))
+```python
+x = 10
+print(type(x))
 ```
 
 Output:
 
-```
+```python
 <class 'int'>
 ```
 
@@ -101,7 +106,8 @@ Meaning:
 Used for text (strings).
 
 ```
-name = "Divya"print(type(name))
+name = "Divya"
+print(type(name))
 ```
 
 Output:
@@ -161,4 +167,12 @@ That's why instructors often write:
 type(dict())
 ```
 
+--------------------------------------
+```python
+Class Student:
+   def instance method(self):
+      print("called instance method")
 
+```
+class student inside def they called class method
+without class they called as function.
