@@ -3,8 +3,8 @@ A **dictionary** is a data structure that stores data in **key-value pairs**.
 ```python
 
 student = {    
-            "name": "Divya",                "house": "Chennai"
-        }
+            "name": "Divya",                           "house": "Chennai"
+ }
 ```
 
 ### Interview Answer
