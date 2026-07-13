@@ -15,7 +15,28 @@ student = {
 > A dictionary is a collection of key-value pairs. Each value is accessed using its key instead of an index. Dictionaries are mutable, meaning items can be added, updated, or removed.
 ```
 
-![[Pasted image 20260622121511.png]]
+```python
+def main():
+    student = get_student()
+    print(f"{student['name']} from{student['house']}")
+
+def get_student():
+    student = {}
+    student["name"]= input("name :")
+    student["house"]= input("house:")
+    return student
+
+if __name__ == "__main__":
+    main()
+```
+
+
+
+
+
+
+
+
 ```python
 if __name__ == "__main__"
 - current_file_name_assigned_by_python == "__main__".next  is call main() function. check the second line call the get_student() function. see 6 line . student = {} empty it will assigne the student value. 
