@@ -1,3 +1,15 @@
+# List vs Tuple vs Set
+
+| Feature          | List  | Tuple | Set   |
+| ---------------- | ----- | ----- | ----- |
+| Syntax           | `[]`  | `()`  | `{}`  |
+| Ordered          | ✅ Yes | ✅ Yes | ❌ No  |
+| Duplicate Values | ✅ Yes | ✅ Yes | ❌ No  |
+| Mutable          | ✅ Yes | ❌ No  | ✅ Yes |
+| Indexing         | ✅ Yes | ✅ Yes | ❌ No  |
+
+
+
 A **set** is a collection that stores **unique values**.
 
 It automatically removes duplicate values.
@@ -9,6 +21,7 @@ It automatically removes duplicate values.
 numbers = {1, 2, 3, 4}
 
 print(numbers)
+
 ```
 
 Output:
