@@ -13,3 +13,4 @@
 | 9   | **PostgreSQL + Alembic basics**                    | ⭐ Important |
 | 10  | **Testing with Pytest**                            | ⭐ Important |
 | 11  | **Docker deployment**                              | 🔥 Must     |
+![[Pasted image 20260831063353.png]]![[Pasted image 20260831062019.png]]

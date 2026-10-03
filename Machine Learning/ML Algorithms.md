@@ -1,3 +1,10 @@
+**1. What is it?**  
+**2. Why do we use it?**  
+**3. How does it work?**  
+**4. When should we use it?**  
+**5. What are its advantages/disadvantages?**
+
+
 
 Machine Learning Algorithms
 │

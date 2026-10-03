@@ -4,7 +4,7 @@
 - [x]  Supervised vs unsupervised learning
 - [x]  Classification vs regression
 - [x]  Feature vs label
-- [ ]  Training/validation/test datasets
+- [ ]  test /model
 - [ ]  Overfitting
 - [ ]  Underfitting
 - [ ]  Generalization
