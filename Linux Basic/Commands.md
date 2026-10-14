@@ -1,3 +1,4 @@
+
 | Command  | Simple meaning                                | Example                |
 | -------- | --------------------------------------------- | ---------------------- |
 | `pwd`    | Shows **where you are**                       | `pwd`                  |
