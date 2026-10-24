@@ -83,13 +83,13 @@ posts: list[dict] = [
 
 ]
 
-@app.get("/",response_class = HTMLResponse,include_in_schema=True)
+@app.get("/",response_class = HTMLResponse,include_in_schema=True)# responseclass means true means present in local host 
 
-@app.get("/posts",response_class = HTMLResponse,include_in_schema=False)
+@app.get("/posts",response_class = HTMLResponse,include_in_schema=False) #not in local host
 
 def get_posts():
 
-return f"<h1>{posts[0]['title']}</h1>"
+return f"<h1>{posts[0]['title']}</h1>" # 
 
 
   
